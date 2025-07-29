@@ -1,3 +1,119 @@
-site_name: My Docs
+site_name: zkの一个无人问津也不可能有人问津的小角落
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+  - pymdownx.arithmatex:
+      generic: true
+
+  - tables
+
+nav:
+  - 首页:
+    - 简介: Home/Intro.md
+    - 语法测试: Home/page-2.md
+
+  - 游戏设计:
+    - 写在前面: GameDesign/Intro.md
+    - 第一小节: GameDesign/Section1.md
+    - 第二小节: GameDesign/Section2.md
+    - 第三小节: GameDesign/Section3.md
+    - 第四小节: GameDesign/Section4.md
+    - 第五小节: GameDesign/Section5.md
+
+  - Unity入门:
+    - 写在前面: Unity/Intro.md
+    - 第一小节: Unity/Section1.md
+
+  - 关卡设计:
+    - 关卡设计“四步法”：从《马里奥》系列说起: LevelDesign/4Steps.md
+    - MDA原文: LevelDesign/MDA.pdf
+    - MDA法则：从游戏存档说起: LevelDesign/MDA.md
+
+
+
 theme:
-  name: material
+  name: material 
+  
+  palette:
+     # Palette toggle for light mode
+    - media: "(prrefer-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+     # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+    - accent: cyan
+
+  features:
+    - content.tooltips
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+
+  
+  icon:
+    admonition:
+      note: material/tag
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: material/alert
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: material/atom
+      quote: octicons/quote-16
+    
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

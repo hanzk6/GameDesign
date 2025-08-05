@@ -54,7 +54,7 @@ nav:
     - Ch1 游戏和电子游戏: FundamentalsofGameDesign/Ch1.md
 
   - 关卡设计:
-    - 关卡设计“四步法”：从《马里奥》系列说起: LevelDesign/4Steps.md
+    - 《马里奥》中的关卡设计“四步法”: LevelDesign/4Steps.md
     - MDA原文: LevelDesign/MDA.pdf
     - MDA法则：从游戏存档说起: LevelDesign/MDA.md
 

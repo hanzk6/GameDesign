@@ -55,6 +55,7 @@ nav:
 
   - 关卡设计:
     - 《马里奥》中的关卡设计“四步法”: LevelDesign/4Steps.md
+    - 马里奥式关卡设计: LevelDesign/Mario.md
     - MDA原文: LevelDesign/MDA.pdf
     - MDA法则：从游戏存档说起: LevelDesign/MDA.md
 

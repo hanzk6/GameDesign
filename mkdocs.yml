@@ -54,6 +54,7 @@ nav:
     - Ch1 游戏和电子游戏: FundamentalsofGameDesign/Ch1.md
 
   - 关卡设计:
+    - 如何设计出好的解谜？: LevelDesign/GoodPuzzle.md
     - 《马里奥》中的关卡设计“四步法”: LevelDesign/4Steps.md
     - 马里奥式关卡设计: LevelDesign/Mario.md
     - MDA原文: LevelDesign/MDA.pdf

@@ -65,6 +65,10 @@ nav:
     - 简介: GDC/Intro.md
     - Benefits of Missing Out：《赛博朋克2077》中的非线性关卡设计: GDC/MissingOut.md
 
+  - 游戏分析:
+    - 简介: Games/Intro.md
+    - 露玛岛: Games/LumaIsland.md
+
   - Unity入门:
     - 写在前面: Unity/Intro.md
 

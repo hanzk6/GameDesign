@@ -68,6 +68,7 @@ nav:
 
   - 游戏分析:
     - 简介: Games/Intro.md
+    - 《露玛岛》: Games/LumaIsland.md
 
   - Unity入门:
     - 写在前面: Unity/Intro.md
@@ -76,6 +77,9 @@ nav:
 
 theme:
   name: material 
+
+  font:
+    text: 'Noto Serif SC'
   
   palette:
      # Palette toggle for light mode

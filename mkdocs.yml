@@ -1,4 +1,4 @@
-site_name: zkの一个开始有人问津的小角落
+site_name: zkの个人网站
 
 markdown_extensions:
   - abbr
@@ -45,9 +45,9 @@ markdown_extensions:
   - tables
 
 nav:
-  - 《高级游戏设计技术》:
+  - 游戏设计技术:
     - 简介: AdvancedGameDesign/Intro.md
-    - Ch1 游戏和电子游戏: AdvancedGameDesign/Ch1.md
+    - 《游戏设计基础》中的关卡设计: AdvancedGameDesign/Fundanmental.md
 
   - 关卡设计GMTK:
     - 如何设计出好的解谜？: LevelDesign/GoodPuzzle.md
@@ -62,9 +62,13 @@ nav:
     - 简介: GDC/Intro.md
     - Benefits of Missisng Out：《赛博朋克2077》中的非线性关卡设计: GDC/MissingOut.md
     - 优秀关卡设计的十大原则: GDC/TenPrinciples.md
+    - 如何构建玩家脑中的“认知地图”: GDC/CognitiveMaps.md
 
   - 游戏分析:
     - 《露玛岛》: Games/LumaIsland.md
+
+  - 项目与demo:
+    - 简介: Projects/Intro.md
 
 
 

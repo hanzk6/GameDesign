@@ -1,6 +1,6 @@
 # **马里奥式关卡设计**
 油管原视频链接：[分析并掌握马里奥式关卡设计](https://www.youtube.com/watch?v=e0c5Le1vGp4&t=35s)<br><br>
-除了之前提到过的[关卡设计四步法](https://hanzk6.github.io/GameDesign/LevelDesign/4Steps/)之外，这个视频还向我们展示了在一关内马里奥是如何向玩家展示新机制并一步步提高难度并创造惊喜的。
+除了之前提到过的[关卡设计四步法](https://hanzk6.github.io/GameDesign/LevelDesign/4Steps/)之外，这个视频还向我们展示了在一关内马里奥是如何向玩家展示新机制并一步步提高难度、创造惊喜的。
 
 ## **游戏流程**
 以《新超级马里奥U》中的丛林跷跷板一关为例：

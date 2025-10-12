@@ -1,8 +1,8 @@
 # 这是一个首页
 本网站包含如下板块：
 
-- 游戏设计技术：记录了自己在《游戏设计艺术》《游戏设计基础》和《高级游戏设计技术》中所学习到的关卡设计知识；
-- 关卡设计GMTK：主要记录了外网博主“Game Maker's Toolkit”的视频内容，短小精悍且受益无穷；
-- GDC：主要记录往年GDC大会中演讲者分享的关卡设计思路，有些演讲者会以自己参与制作的游戏作为实例进行讲解，而有些则会站在更加宏观的视角，对整个关卡设计进行解读。记录方式也分为文字和思维导图两种；
-- 游戏分析：主要记录了自己对部分游戏的游戏机制和游戏关卡进行的分析；
-- 项目与demo：自己所参加的项目和demo。
+- [游戏设计技术](https://hanzk6.github.io/GameDesign/AdvancedGameDesign/Intro/)：记录了自己在《游戏设计艺术》《游戏设计基础》和《高级游戏设计技术》中所学习到的关卡设计知识；
+- [关卡设计GMTK](https://hanzk6.github.io/GameDesign/LevelDesign/GoodPuzzle/)：主要记录了外网博主“Game Maker's Toolkit”的视频内容，短小精悍且受益无穷；
+- [GDC](https://hanzk6.github.io/GameDesign/GDC/Intro/)：主要记录往年GDC大会中演讲者分享的关卡设计思路，有些演讲者会以自己参与制作的游戏作为实例进行讲解，而有些则会站在更加宏观的视角，对整个关卡设计进行解读。记录方式也分为文字和思维导图两种；
+- [游戏分析](https://hanzk6.github.io/GameDesign/Games/Intro/)：主要记录了自己对部分游戏的游戏机制和游戏关卡进行的分析；
+- [项目与demo](https://hanzk6.github.io/GameDesign/Projects/Intro/)：自己所参加的项目和demo。

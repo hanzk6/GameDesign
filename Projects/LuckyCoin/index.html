@@ -1162,15 +1162,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      成果展示
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1273,15 +1264,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      成果展示
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1315,15 +1297,26 @@
 <p><a href="https://vcnzkmazdjs9.feishu.cn/docx/A8lAdpX9yoYxr5xQZvIcwbUHnVg">项目基本策划案</a> <br></p>
 <p><a href="https://vcnzkmazdjs9.feishu.cn/docx/F24LdKcHkoSBTJxF5cKcBhPBn1g">项目开发详细策划案</a></p>
 <h2 id="_4"><strong>开发复盘</strong></h2>
-<p>首次进行多人协作开发，难免会遇到问题。在开发过程中，在程序、游戏机制与关卡、团队协作和成果展示四个方面均有优点和缺点：</p>
+<p>首次进行多人协作开发，难免会遇到问题。在开发过程中，在程序、游戏机制与关卡、团队协作和成果展示四个方面均有优点和不足之处：</p>
 <h3 id="_5"><strong>团队协作</strong></h3>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>分工较为清晰</strong>：六人小组共有一名主策一名副策、三名程序及一名美术，整体分工比较清晰，能够各司其职地完成开发任务</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>沟通效率一般</strong>：</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>分工较为清晰</strong>：六人小组共有一名主策一名副策、三名程序及一名美术，整体分工比较清晰，能够各司其职地完成开发任务；</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>沟通效率仍需改进</strong>：在实际团队协作过程中，团队成员会因为学业繁忙等原因无法及时回应其他人的消息，导致开发流程出现了一定的滞后和拖延；<strong>改进方法：与团队成员约定每天/每周的特定时间，在特定时间内集中解决问题</strong>。</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>决策机制优柔寡断</strong>：在讨论和决定游戏的内容和机制时，团队成员之间往往持有不同的观点，几种观点僵持不下，使得整场讨论偏离主题、耗时较久拖延开发进度；<strong>改进方法：在展开讨论之前每个人先将自己的想法整理成文稿进行分享，在讨论时着重对有争议或意见不一致的地方进行，节省讨论时间。</strong></li>
 </ul>
 <h3 id="_6"><strong>程序开发</strong></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>开发环境、协作机制良好</strong>：团队选择使用统一的Godot4引擎进行游戏开发，所有成员将项目进度同步在Github中，保证了项目开发进度能够随时统一；</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>开发分工欠考虑</strong>：在一开始的分工中，由于考虑到两位大一的程序编程知识掌握较少且学业较为繁重，故给他们分配了较为轻松的工作。但其实可以适当让他们再做一些小型的系统等开发任务，合理分配开发任务；</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>系统、模块解耦合度较差</strong>：在开发过程中，自己并没有在脚本中高度封装某些场景交互函数和交互入口，导致其他程序在编写后续内容时通常需要重新理解自己的函数。<strong>改进方法：进一步了解游戏脚本编写时的函数接口写法，并辅助以恰当的注释。</strong></li>
+</ul>
 <h3 id="_7"><strong>游戏机制、数值和关卡</strong></h3>
-<h3 id="_8"><strong>成果展示</strong></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>系统之间联系较为紧密</strong>：无论是可以用来借贷的银行系统，还是可以购买道具的商店系统，都紧密地围绕“推币机”这一机制，为这一核心资源获取手段做铺垫；</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>核心机制经历多次修改仍不完善</strong>：核心机制“推币机”通过几轮迭代和简化后，反而更像是“老虎机”，这一错误表达引发了诸多问题。<strong>改进方法：应对游戏核心机制进行进一步的打磨和深入，而不是空泛地停留于表面</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>游戏数值仍需经过进一步测试和修改</strong>：尽管在发布前进行了多轮的测试和调整，在试玩会上游戏爱好者们一致认为该游戏的难度仍偏低，需要进一步测试和修改；</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>游戏道具机制有待挖掘</strong>：在设计道具有关机制时，并没有进一步探索道具之间的联动，而仅仅考虑单一道具的价值。<strong>改进方法：推倒重做整个道具系统，从多流派角度考虑道具的机制与设置</strong></li>
+</ul>
 
 
 
